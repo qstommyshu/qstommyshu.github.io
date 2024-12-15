@@ -3,8 +3,8 @@ title: gRPC Introduction (Chapter 1)
 description: gRPC introduction is series of blogs for me to output my knowledge for gRPC, and to provide easy to understand tutorial to someone who is interested in learning it. 
 author: 
 date: 2024-12-15 20:34:00 +0800
-categories: [Blogging]
-tags: [GRPC]
+categories: [tech]
+tags: [gRPC]
 pin: true
 math: true
 mermaid: true
