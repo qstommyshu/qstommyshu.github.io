@@ -20,7 +20,9 @@ Traditionally, this can be done by methods like http request or graphql, but gRP
 
 ## Protocol Buffers
 
-When talking about gRPC, Protocol Buffer (Protobuf) is something that can't be skipped. Protobuf is a programming language agnostic method developed by Google to define RPC. Protocol Buffer is defined in a file with `.proto` extension, this file describes the structure of your service and data in the RPC communication system. Let's start with a simple example to learn about `.proto` file:
+When talking about gRPC, Protocol Buffer (Protobuf) is something that can't be skipped. Protobuf is a programming language agnostic method developed by Google to define RPC interface. Protocol Buffer is defined in a file with `.proto` extension, this file describes the structure of your service and data in the RPC communication system. In fact, protocol buffer is both used as an Interface Definition Language (IDL), and underlying message interchagne format in gRPC (just something fun to know about).
+
+Let's start with a simple example to learn about `.proto` file:
 
 ```proto
 syntax = "proto3";
