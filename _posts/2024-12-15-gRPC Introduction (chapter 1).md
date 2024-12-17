@@ -81,4 +81,4 @@ The `rpc BidirectionalExample (stream MyRequest) returns (stream MyResponse);` i
 
 That's all for the core part of a Protobuf. Very simple, isn't it? I made each part of "gRPC Introduction" very short and simple on purpose, just so reader don't feel overwelmed by gRPC, it is actually not that hard (at least I felt confused when I first look into the official documentation, I think the offical introduction can be made better for newbee to gRPC).
 
-For the next chapter, we are going to learn about how to use the `.proto` file in our example.
+For the next chapter, we are going to learn about how to "use" the `.proto` file we defined to generate interface code and how to implement our gRPC service.
