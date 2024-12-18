@@ -10,7 +10,9 @@ Hi, I’m Qi—though you can also call me Tommy! I’m a recent computer scienc
 
 ## Purpose of This Site
 
-This blog is my personal space to share interesting topics I’ve explored and lessons I’ve learned. Writing helps me organize my thoughts and provides a sense of accomplishment. I believe the best way to learn is to teach others, and this site is my platform to do just that.
+This blog is my personal space to share interesting topics I’ve explored and lessons I’ve learned. Writing helps me organize my thoughts and provides a sense of accomplishment. I believe the best way to learn is to teach others, and this site is my platform to do just that. 
+
+Based on the number of grammar mistakes in my posts, you can tell how much ChatGPT is involved 😉.
 
 ## Education
 
@@ -20,7 +22,7 @@ This blog is my personal space to share interesting topics I’ve explored and l
 
 ## Open Source
 
-I contributes to open source projects when I have time. Here are a few of my recent contributions:
+I contributes to open source projects as a hobby. Here are a few of my recent contributions:
 
 - [Hyperswitch - PR #6293](https://github.com/juspay/hyperswitch/pull/6293)
 - [Hyperswitch - PR #6341](https://github.com/juspay/hyperswitch/pull/6341)
