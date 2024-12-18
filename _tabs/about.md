@@ -10,7 +10,7 @@ Hi, I’m Qi—though you can also call me Tommy! I’m a recent computer scienc
 
 ## Purpose of This Site
 
-This blog is my personal space to share interesting topics I’ve explored and lessons I’ve learned. Writing helps me organize my thoughts and provides a sense of accomplishment. I believe the best way to learn is to teach others, and this site is my platform to do just that. 
+This blog is my personal space to share interesting topics I’ve explored and lessons I’ve learned. Writing helps me organize my thoughts and provides a sense of accomplishment. I believe the best way to learn is to teach others, and this site is my platform to do just that.
 
 Based on the number of grammar mistakes in my posts, you can tell how much ChatGPT is involved 😉.
 
