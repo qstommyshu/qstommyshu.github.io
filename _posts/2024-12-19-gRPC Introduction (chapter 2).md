@@ -49,9 +49,9 @@ For this example, I'm going to use Type Script to demostrate gRPC code implement
 
 To get started with this project, you need `npm`, `yarn`, `protoc` installed.
 
-1. Create a directory named `grpc-ts-example`, and initialize it as a Type Script yarn project with necessary packages by running the command below in terminal:
+1\. Create a directory named `grpc-ts-example`, and initialize it as a Type Script yarn project with necessary packages by running the command below in terminal:
 
-```bash
+```shell
 mkdir grpc-ts-example
 cd grpc-ts-example
 yarn init -y
@@ -59,9 +59,9 @@ yarn add typescript ts-node @types/node --dev ts-proto @grpc/grpc-js
 npx tsc --init
 ```
 
-2. Create a file called `rpc_example.proto` and paste in our protobuf content:
+2\. Create a file called `rpc_example.proto` and paste in our protobuf content:
 
-```bash
+```shell
 echo 'syntax = "proto3";
 
 service rpcExample {
@@ -84,9 +84,9 @@ message MyResponse {
 }' > rpc_example.proto
 ```
 
-3. Then add some useful scripts to `package.json`:
+3\. Then add some useful scripts to `package.json`:
 
-```bash
+```shell
 npm pkg set scripts.proto:build="protoc --plugin=protoc-gen-ts_proto=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=./generated ./rpc_example.proto --ts_proto_opt=outputServices=grpc-js,env=node,esModuleInterop=true"
 npm pkg set scripts.server="npx ts-node src/server.ts"
 npm pkg set scripts.client:unary="npx ts-node src/client/unaryExample.ts"
@@ -99,7 +99,7 @@ npm pkg set scripts.client:bidirectional="npx ts-node src/client/bidirectionalEx
 
 Create a directory called `generated` (meaning code in this directory are generated), and generate Type Script interface:
 
-```bash
+```shell
 mkdir generated
 yarn run proto:build
 ```
@@ -110,7 +110,7 @@ You should see `rpc_example.ts` being generated in the `generated` directory aft
 
 Before starting the RPC code implementation, we need to create a directory called `src` to store all our implementation code, and create files for server an clients:
 
-```bash
+```shell
 mkdir src
 touch src/server.ts
 mkdir src/client
