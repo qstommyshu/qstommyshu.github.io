@@ -4,7 +4,9 @@ import { useTheme } from "../context/ThemeContext";
 
 function FaviconSwitcher() {
   const { isDark } = useTheme();
-  const faviconUrl = isDark ? "/favicon-dark.svg" : "/favicon-light.svg";
+  const faviconUrl = isDark
+    ? "/qstommyshu.github.io/favicon-dark.svg"
+    : "/qstommyshu.github.io/favicon-light.svg";
 
   return (
     <Helmet>

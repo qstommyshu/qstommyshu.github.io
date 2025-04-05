@@ -1,5 +1,6 @@
 import React from "react";
 import { MonitorPlay, MountainSnow, GlassWater } from "lucide-react";
+// import snowboardAction from "../assets/snowboard_action.png";
 
 function Life() {
   return (
@@ -19,7 +20,7 @@ function Life() {
           {/* Snowboarding Section */}
           <div className="relative rounded-2xl overflow-hidden">
             <img
-              src="dist/assets/pictures/snowboard_action.jpg"
+              src="/qstommyshu.github.io/pictures/snowboard_action.jpg"
               alt="Snowboarding action"
               className="w-full h-64 object-cover"
             />
