@@ -18,7 +18,7 @@ const projects = [
     title: "Simple-Chat",
     description:
       "AI-powered chat bot that helps users learn web information through natural conversation. Built with Flask, OpenAI API, React, and Redux.",
-    image: "/qstommyshu.github.io/pictures/simple_chat.png",
+    image: "/pictures/simple_chat.png",
     technologies: ["React", "Redux", "Flask", "OpenAI"],
     demoUrl: "https://qstommyshu.com/",
     githubUrl: "https://github.com/qstommyshu/simple-chat",
@@ -28,7 +28,7 @@ const projects = [
     title: "Personal Website",
     description:
       "Modern, responsive personal website built with React and TypeScript. Features dark mode, blog system, and animations.",
-    image: "/qstommyshu.github.io/pictures/personal_site.png",
+    image: "/pictures/personal_site.png",
     technologies: ["React", "TypeScript", "Tailwind", "Vite"],
     githubUrl: "https://github.com/qstommyshu/portfolio",
     icon: Laptop,

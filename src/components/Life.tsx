@@ -20,7 +20,7 @@ function Life() {
           {/* Snowboarding Section */}
           <div className="relative rounded-2xl overflow-hidden">
             <img
-              src="/qstommyshu.github.io/pictures/snowboard_action.jpg"
+              src="/pictures/snowboard_action.jpg"
               alt="Snowboarding action"
               className="w-full h-64 object-cover"
             />
