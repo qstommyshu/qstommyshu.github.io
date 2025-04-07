@@ -23,6 +23,23 @@ const contributions: Contribution[] = [
     project: "Apache DataFusion",
     repo: "apache/datafusion",
     repoUrl: "https://github.com/apache/datafusion",
+    prUrl: "https://github.com/apache/datafusion/pull/15621",
+    prNumber: "#15621",
+    title: "Migrate datafusion/sql tests to insta, part7",
+    description:
+      "Refactor the datafusion/sql tests to use the insta testing framework.",
+    impact: "Improved test reliability and maintainability",
+    linesChanged: {
+      additions: 520,
+      deletions: 315,
+    },
+    status: "open",
+    tags: ["rust", "sql"],
+  },
+  {
+    project: "Apache DataFusion",
+    repo: "apache/datafusion",
+    repoUrl: "https://github.com/apache/datafusion",
     prUrl: "https://github.com/apache/datafusion/pull/15578",
     prNumber: "#15578",
     title: "Migrate datafusion/sql tests to insta, part6",
@@ -33,7 +50,7 @@ const contributions: Contribution[] = [
       additions: 515,
       deletions: 320,
     },
-    status: "open",
+    status: "merged",
     tags: ["rust", "sql"],
   },
   {
