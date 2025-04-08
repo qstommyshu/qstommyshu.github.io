@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Github,
   Linkedin,
@@ -7,14 +7,16 @@ import {
   ExternalLink,
   MapPin,
   Clock,
-} from 'lucide-react';
+} from "lucide-react";
 
 function Contact() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Let's Connect</h1>
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Let's Connect
+          </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
             Feel free to reach out through any of these platforms
           </p>
@@ -35,7 +37,9 @@ function Contact() {
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                   Email
                 </h2>
-                <p className="text-gray-600 dark:text-gray-300">qstommyshu@gmail.com</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  qstommyshu@gmail.com
+                </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" />
             </div>
@@ -56,7 +60,9 @@ function Contact() {
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                   LinkedIn
                 </h2>
-                <p className="text-gray-600 dark:text-gray-300">Connect professionally</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Connect professionally
+                </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" />
             </div>
@@ -77,7 +83,9 @@ function Contact() {
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                   GitHub
                 </h2>
-                <p className="text-gray-600 dark:text-gray-300">Check out my code</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Check out my code
+                </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" />
             </div>
@@ -98,7 +106,9 @@ function Contact() {
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                   Instagram
                 </h2>
-                <p className="text-gray-600 dark:text-gray-300">Follow my journey</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Follow my journey
+                </p>
               </div>
               <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" />
             </div>
@@ -114,8 +124,12 @@ function Contact() {
                 <MapPin className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Location</h3>
-                <p className="text-gray-600 dark:text-gray-300">Toronto, Ontario, Canada</p>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
+                  Location
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Toronto, Ontario, Canada
+                </p>
               </div>
             </div>
 
@@ -125,15 +139,20 @@ function Contact() {
                 <Clock className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
               </div>
               <div className="ml-4">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Time Zone</h3>
-                <p className="text-gray-600 dark:text-gray-300">Eastern Time (ET)</p>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
+                  Time Zone
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Eastern Standard Time (EST)
+                </p>
               </div>
             </div>
           </div>
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 dark:text-gray-300">
-              I'm always open to discussing new projects, opportunities, or just having a friendly chat!
+              I'm always open to discussing new projects, opportunities, or just
+              having a friendly chat!
             </p>
           </div>
         </div>

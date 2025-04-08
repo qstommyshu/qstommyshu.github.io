@@ -144,8 +144,8 @@ function Resume() {
                           Advance Operating Systems
                         </p>
                       </div>
-                      <span className="text-gray-500 dark:text-gray-400">
-                        Part-time
+                      <span className="text-gray-500 dark:text-gray-400 whitespace-nowrap">
+                        Sept.2025 - Present
                       </span>
                     </div>
 

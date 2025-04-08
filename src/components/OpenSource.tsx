@@ -33,7 +33,7 @@ const contributions: Contribution[] = [
       additions: 520,
       deletions: 315,
     },
-    status: "open",
+    status: "merged",
     tags: ["rust", "sql"],
   },
   {
