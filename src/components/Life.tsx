@@ -31,9 +31,9 @@ function Life() {
               </h3>
               <p className="text-gray-200">
                 Level 2 Professional and Park Level 1 Certified Instructor,
-                chasing the dream of earning a RedBull helmet through dedication
-                and progression in the sport. Passionate about sharing the
-                thrill of snowboarding with others.
+                chasing the dream of earning a "RedBull helmet" through
+                dedication and progression in the sport. Passionate about
+                sharing the thrill of snowboarding with others.
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ function Life() {
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
                 Professional instructor with Level 2 and Park 1 certifications.
-                Training hard to achieve the coveted RedBull helmet status.
+                Training hard to achieve the coveted "RedBull" helmet status.
               </p>
             </div>
 
