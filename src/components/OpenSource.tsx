@@ -29,8 +29,8 @@ const contributions: Contribution[] = [
     description: "Fix the CLI query header for cast expressions with literals.",
     impact: "A bug fix for the CLI query header",
     linesChanged: {
-      additions: 520,
-      deletions: 315,
+      additions: 209,
+      deletions: 3,
     },
     status: "open",
     tags: ["rust", "sql"],
