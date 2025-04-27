@@ -10,7 +10,7 @@ math: true
 mermaid: true
 ---
 
-This chapter of gRPC Introduction covers code implementation of our protobuf defined in [chatper 1](https://qstommyshu.github.io/posts/gRPC-Introduction-(chapter-1)/) in *Type Script*.
+This chapter of gRPC Introduction covers code implementation of our protobuf defined in [chatper 1](https://qstommyshu.github.io/posts/gRPC-Introduction-(chapter-1)/) in *Type Script*.****
 
 ## Begin
 
