@@ -154,29 +154,26 @@ function BlogPostPage() {
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={{
-                  code({ inline, className, children, ...props }) {
+                  code(props) {
+                    const { children, className } = props;
                     const match = /language-(\w+)/.exec(className || "");
-                    return !inline && match ? (
+
+                    if (!match) {
+                      return (
+                        <code className="px-1.5 py-0.5 rounded-md bg-gray-100 dark:bg-gray-700 text-sm font-normal">
+                          {children}
+                        </code>
+                      );
+                    }
+
+                    return (
                       <SyntaxHighlighter
                         style={oneDark}
                         language={match[1]}
                         PreTag="div"
-                        customStyle={{
-                          margin: "1.5em 0",
-                          borderRadius: "0.5rem",
-                          fontSize: "0.875rem",
-                        }}
-                        {...props}
                       >
                         {String(children).replace(/\n$/, "")}
                       </SyntaxHighlighter>
-                    ) : (
-                      <code
-                        className="px-1.5 py-0.5 rounded-md bg-gray-100 dark:bg-gray-700 text-sm font-normal"
-                        {...props}
-                      >
-                        {children}
-                      </code>
                     );
                   },
                 }}

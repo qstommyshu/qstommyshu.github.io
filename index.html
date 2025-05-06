@@ -1,10 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tommy's Space</title>
+    <script>
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      (function () {
+        // Check if coming from a redirect
+        var redirectPath = sessionStorage.getItem("spa-path");
+        if (redirectPath) {
+          // Remove the stored path from sessionStorage
+          sessionStorage.removeItem("spa-path");
+
+          // Use history API to redirect to the original URL without causing a page refresh
+          var cleanPath = redirectPath;
+          window.history.replaceState(null, null, cleanPath);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
