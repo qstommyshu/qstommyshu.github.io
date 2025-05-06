@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tommy's Space</title>
     <script>
-      // Check if we need to redirect
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
       (function () {
-        var redirect = sessionStorage.getItem("redirect");
-        if (redirect) {
-          // Clear the redirect to prevent infinite loops
-          sessionStorage.removeItem("redirect");
-          // Redirect to the stored path
-          if (redirect !== "") {
-            history.replaceState(null, null, redirect);
-          }
+        // Check if coming from a redirect
+        var redirectPath = sessionStorage.getItem("spa-path");
+        if (redirectPath) {
+          // Remove the stored path from sessionStorage
+          sessionStorage.removeItem("spa-path");
+
+          // Use history API to redirect to the original URL without causing a page refresh
+          var cleanPath = redirectPath;
+          window.history.replaceState(null, null, cleanPath);
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-CXTTEyJI.js"></script>
+    <script type="module" crossorigin src="/assets/index-CEnMw0Ws.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-tFzuk5zw.css">
   </head>
   <body>
