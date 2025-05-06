@@ -31,7 +31,7 @@ function BlogPostPage() {
       try {
         if (!slug) throw new Error("No slug provided");
 
-        const response = await fetch(`/src/content/blog/${slug}.md`);
+        const response = await fetch(`/content/blog/${slug}.md`);
         if (!response.ok) throw new Error("Failed to load blog post");
 
         const text = await response.text();
@@ -48,7 +48,7 @@ function BlogPostPage() {
 
         const getArrayValue = (field: string): string[] => {
           return getFrontmatterValue(field)
-            .replace(/[\[\]]/g, "")
+            .replace(/[[\]]/g, "")
             .split(",")
             .map((s) => s.trim())
             .filter(Boolean);
@@ -154,7 +154,7 @@ function BlogPostPage() {
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={{
-                  code({ node, inline, className, children, ...props }) {
+                  code({ inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || "");
                     return !inline && match ? (
                       <SyntaxHighlighter
