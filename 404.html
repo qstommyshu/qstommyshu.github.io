@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Get the current path and query string
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      var repo = "qstommyshu.github.io"; // Add your repo name here
+
+      // Construct the redirect URL
+      var redirectUrl =
+        l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "");
+
+      // GitHub Pages serves user pages from username.github.io domain or custom domain
+      if (l.hostname.includes("github.io")) {
+        // For username.github.io domain with no pathSegmentsToKeep
+        pathSegmentsToKeep = 0;
+      }
+
+      var url = redirectUrl;
+      for (var i = 0; i < pathSegmentsToKeep; i++) {
+        url += l.pathname.split("/")[i + 1] + "/";
+      }
+
+      // Add the current path and query string to sessionStorage
+      sessionStorage.setItem(
+        "redirect",
+        l.pathname
+          .split("/")
+          .slice(pathSegmentsToKeep + 1)
+          .join("/") + (l.search || "")
+      );
+
+      // Redirect to the homepage
+      window.location.href = url;
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
