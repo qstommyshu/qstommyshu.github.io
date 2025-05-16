@@ -10,16 +10,28 @@ import {
   ChevronDown,
   Laptop,
   Layout,
+  AppWindow,
+  Activity,
 } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
 const projects = [
   {
+    title: "Match-Matrix",
+    description:
+      "AI-powered job matching platform that matches perfect candidates with job posts. Vibe coded with Next.js, OpenAI API, React and Supabase.",
+    image: "/pictures/match_matrix.png",
+    technologies: ["Next.js", "Supabase", "OpenAI API", "Vibe Coding"],
+    demoUrl: "https://v0-match-matrix-landing-page.vercel.app/",
+    githubUrl: "https://github.com/qstommyshu/match-matrix",
+    icon: AppWindow,
+  },
+  {
     title: "Simple-Chat",
     description:
       "AI-powered chat bot that helps users learn web information through natural conversation. Built with Flask, OpenAI API, React, and Redux.",
     image: "/pictures/simple_chat.png",
-    technologies: ["React", "Redux", "Flask", "OpenAI"],
+    technologies: ["React", "Redux", "Flask", "OpenAI API"],
     demoUrl: "https://qstommyshu.com/",
     githubUrl: "https://github.com/qstommyshu/simple-chat",
     icon: Layout,
@@ -32,6 +44,21 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind", "Vite"],
     githubUrl: "https://github.com/qstommyshu/portfolio",
     icon: Laptop,
+  },
+  {
+    title: "Motion Mingle",
+    description:
+      "A real-time streaming service with AI-powered visual effects to enhance online exercise learning experience.",
+    image: "/pictures/motion_mingle.png",
+    technologies: [
+      "Media Pipe",
+      "AioRTC",
+      "Material-UI",
+      "React",
+      "Computer Vision",
+    ],
+    githubUrl: "https://github.com/qstommyshu/MotionMingle",
+    icon: Activity,
   },
 ];
 

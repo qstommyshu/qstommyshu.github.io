@@ -19,7 +19,7 @@ function Navbar() {
 
   const navItems = [
     { path: "/", icon: Home, label: "Home" },
-    { path: "/resume", icon: FileText, label: "Resume" },
+    // { path: "/resume", icon: FileText, label: "Resume" },
     { path: "/blog", icon: BookOpen, label: "Blog" },
     { path: "/opensource", icon: GitFork, label: "Open Source" },
     { path: "/life", icon: Heart, label: "Life" },
