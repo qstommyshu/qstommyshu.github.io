@@ -52,7 +52,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
   });
 
   const [isLoading, setIsLoading] = useState(false);
-  const [isChatVisible, setIsChatVisible] = useState(true);
+  const [isChatVisible, setIsChatVisible] = useState(false);
 
   // Save messages to localStorage whenever they change
   useEffect(() => {
