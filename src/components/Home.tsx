@@ -12,6 +12,7 @@ import {
   Layout,
   AppWindow,
   Activity,
+  Video,
 } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
@@ -24,6 +25,7 @@ const projects = [
     technologies: ["Next.js", "Supabase", "OpenAI API", "Vibe Coding"],
     demoUrl: "https://v0-match-matrix-landing-page.vercel.app/",
     githubUrl: "https://github.com/qstommyshu/match-matrix",
+    videoDemoUrl: "https://www.youtube.com/watch?v=JMr1hCFNumY",
     icon: AppWindow,
   },
   {
@@ -34,6 +36,7 @@ const projects = [
     technologies: ["React", "Redux", "Flask", "OpenAI API"],
     demoUrl: "https://qstommyshu.com/",
     githubUrl: "https://github.com/qstommyshu/simple-chat",
+    videoDemoUrl: "https://www.youtube.com/watch?v=SPvllIrlkeI",
     icon: Layout,
   },
   {
@@ -59,6 +62,7 @@ const projects = [
       "Computer Vision",
     ],
     githubUrl: "https://github.com/qstommyshu/MotionMingle",
+    videoDemoUrl: "https://www.youtube.com/watch?v=Gwi6fzDyYhI",
     icon: Activity,
   },
 ];
@@ -366,6 +370,17 @@ function Home() {
                         >
                           <ExternalLink size={20} className="mr-2" />
                           Live Demo
+                        </a>
+                      )}
+                      {project.videoDemoUrl && (
+                        <a
+                          href={project.videoDemoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                        >
+                          <Video size={20} className="mr-2" />
+                          Video Demo
                         </a>
                       )}
                     </div>
