@@ -7,8 +7,7 @@ export interface ChatResponse {
 }
 
 // The API endpoint
-const API_URL =
-  "https://bc88e69a-08d3-4d3c-a95c-89ef3d5cdd92-00-17wwmwci1dwd6.janeway.replit.dev/chat";
+const API_URL = "https://chatime-qstommyshu.replit.app/chat";
 
 /**
  * Sends a chat message to the API and returns the response

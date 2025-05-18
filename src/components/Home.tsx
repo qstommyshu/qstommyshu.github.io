@@ -39,10 +39,11 @@ const projects = [
   {
     title: "Personal Website",
     description:
-      "Modern, responsive personal website built with React and TypeScript. Features dark mode, blog system, and animations.",
+      "Modern, responsive personal website built with React and TypeScript. Features dark mode, blog system, and animations. Also integrated with a RAG AI chatbot assistant.",
     image: "/pictures/personal_site.png",
     technologies: ["React", "TypeScript", "Tailwind", "Vite"],
     githubUrl: "https://github.com/qstommyshu/portfolio",
+    demoUrl: "https://qstommyshu.github.io/",
     icon: Laptop,
   },
   {
@@ -188,7 +189,7 @@ function Home() {
                   <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
                       <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                        Full Stack Software Developer Intern
+                        Full Stack Software Developer
                       </h3>
                       <div className="text-indigo-600 dark:text-indigo-400 font-medium">
                         May 2023 - Dec 2023
@@ -220,7 +221,7 @@ function Home() {
                   <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
                       <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                        Full Stack Software Developer Intern
+                        Full Stack Software Developer
                       </h3>
                       <div className="text-indigo-600 dark:text-indigo-400 font-medium">
                         May 2022 - Aug 2022
@@ -248,7 +249,7 @@ function Home() {
                   <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
                       <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                        Software Developer in Test Intern
+                        Software Developer in Test
                       </h3>
                       <div className="text-indigo-600 dark:text-indigo-400 font-medium">
                         May 2021 - Apr 2022
@@ -264,6 +265,28 @@ function Home() {
                       </li>
                       <li>Created 20+ E2E tests with Cypress.io</li>
                       <li>Designed 10+ CI/CD pipelines in GitHub Actions</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="relative pl-8">
+                  <div className="absolute left-0 -translate-x-1/2 w-4 h-4 bg-indigo-600 dark:bg-indigo-500 rounded-full border-4 border-white dark:border-gray-900"></div>
+                  <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                        Backend Software Developer
+                      </h3>
+                      <div className="text-indigo-600 dark:text-indigo-400 font-medium">
+                        Jan 2020 - Mar 2021
+                      </div>
+                    </div>
+                    <div className="text-lg font-medium text-gray-600 dark:text-gray-300 mb-2">
+                      Lexivalley Inc.
+                    </div>
+                    <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+                      <li>
+                        Deployed the official company website with an integrated
+                        Payment gateway
+                      </li>
                     </ul>
                   </div>
                 </div>
