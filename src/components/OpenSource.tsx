@@ -19,23 +19,22 @@ interface Contribution {
 }
 
 const contributions: Contribution[] = [
-  {
-    project: "Apache DataFusion",
-    repo: "apache/datafusion",
-    repoUrl: "https://github.com/apache/datafusion",
-    prUrl: "https://github.com/apache/datafusion/pull/15736",
-    prNumber: "#15736",
-    title: "fix: enhance-CLI-query-header-for-cast-expressions-with-literals",
-    description: "Fix the CLI query header for cast expressions with literals.",
-    impact: "A bug fix for the CLI query header",
-    linesChanged: {
-      additions: 209,
-      deletions: 3,
-    },
-    status: "open",
-    tags: ["rust", "sql"],
-  },
-
+  // {
+  //   project: "Apache DataFusion",
+  //   repo: "apache/datafusion",
+  //   repoUrl: "https://github.com/apache/datafusion",
+  //   prUrl: "https://github.com/apache/datafusion/pull/15736",
+  //   prNumber: "#15736",
+  //   title: "fix: enhance-CLI-query-header-for-cast-expressions-with-literals",
+  //   description: "Fix the CLI query header for cast expressions with literals.",
+  //   impact: "A bug fix for the CLI query header",
+  //   linesChanged: {
+  //     additions: 209,
+  //     deletions: 3,
+  //   },
+  //   status: "open",
+  //   tags: ["rust", "sql"],
+  // },
   {
     project: "Apache DataFusion",
     repo: "apache/datafusion",
