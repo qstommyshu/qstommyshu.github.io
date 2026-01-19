@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Personal Website",
     description:
-      "Modern, responsive personal website built with React and TypeScript. Features dark mode, blog system, and animations. Also integrated with a RAG AI chatbot assistant.",
+      "Modern, responsive personal website built with React and TypeScript. Features dark mode, blog system, and animations.",
     image: "/pictures/personal_site.png",
     technologies: ["React", "TypeScript", "Tailwind", "Vite"],
     githubUrl: "https://github.com/qstommyshu/portfolio",
