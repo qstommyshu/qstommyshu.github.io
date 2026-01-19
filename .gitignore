@@ -28,3 +28,6 @@ assets/js/dist
 
 dist/*
 test
+
+# macOS
+.DS_Store
